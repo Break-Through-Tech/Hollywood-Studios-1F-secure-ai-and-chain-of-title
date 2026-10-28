@@ -1,0 +1,126 @@
+{
+  "id": "03-producer-resume-ep-vs-producer",
+  "summary": "Structured producer résumé; Producer, Executive Producer and Co-Producer must stay distinct.",
+  "tags": [
+    "resume",
+    "producer-vs-ep",
+    "experience-dates",
+    "skills-list"
+  ],
+  "inputs": {
+    "resume": "resume.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Producer with fifteen years of experience developing and producing independent features and premium television."
+      }
+    ],
+    "headline": [
+      {
+        "value": "Producer | Executive Producer"
+      }
+    ],
+    "location": [
+      {
+        "value": "Los Angeles, CA"
+      }
+    ],
+    "experience": [
+      {
+        "value": {
+          "company": "Bluefinch Media",
+          "job_title": "Head of Production",
+          "start_date": "2018-01",
+          "end_date": null,
+          "description": "Oversee a slate of six to eight features per year from greenlight through delivery."
+        },
+        "note": "\"Present\" → end_date null."
+      },
+      {
+        "value": {
+          "company": "Tallgrass Pictures",
+          "job_title": "Producer",
+          "start_date": "2011-03",
+          "end_date": "2017-12",
+          "description": null
+        }
+      },
+      {
+        "value": {
+          "company": "Meridian Talent Group",
+          "job_title": "Development Coordinator",
+          "start_date": "2008",
+          "end_date": "2011",
+          "description": null
+        }
+      }
+    ],
+    "skills": [
+      {
+        "value": "Budgeting & Scheduling"
+      },
+      {
+        "value": "Movie Magic Budgeting"
+      },
+      {
+        "value": "Co-Production Treaties"
+      },
+      {
+        "value": "Talent Packaging"
+      }
+    ],
+    "credits": [
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Saltwater Saints",
+          "year": 2015,
+          "role": "Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Saltwater Saints: The Series",
+          "year": 2019,
+          "role": "Executive Producer",
+          "work_type": "TV"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "The Night Ferry",
+          "year": 2021,
+          "role": "Executive Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Glass Harbor",
+          "year": 2021,
+          "role": "Co-Producer",
+          "work_type": "TV"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Lantern Row",
+          "year": 2016,
+          "role": "Producer",
+          "work_type": "Short"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": [
+    "Email and phone in the header are contact details, not profile fields."
+  ]
+}

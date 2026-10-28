@@ -1,0 +1,99 @@
+{
+  "id": "11-composer-awards-representation",
+  "summary": "Composer with a nomination and a win; representation with no stated role.",
+  "tags": [
+    "bio-only",
+    "awards",
+    "won-vs-nominated",
+    "representation",
+    "missing-year"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Composer Maeve Odunsi-Black scores film, television, and games. Her score for the animated feature The Paper Kingdom (2018) earned a Silver Reel Award nomination for Best Original Score, and she won the Harmonia Screen Music Award in 2021 for the series Northbound. Other credits include the documentary feature Saltmarsh (2023) and the short Tin Soldier (2016). She is represented by Ingrid Fallowes at Fallowes Artist Management."
+      }
+    ],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Music",
+          "title": "The Paper Kingdom",
+          "year": 2018,
+          "role": "Composer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Music",
+          "title": "Northbound",
+          "year": null,
+          "role": "Composer",
+          "work_type": "TV"
+        },
+        "needsConfirmation": true,
+        "note": "2021 is the award year, not the credit year."
+      },
+      {
+        "value": {
+          "department": "Music",
+          "title": "Saltmarsh",
+          "year": 2023,
+          "role": "Composer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Music",
+          "title": "Tin Soldier",
+          "year": 2016,
+          "role": "Composer",
+          "work_type": "Short"
+        }
+      }
+    ],
+    "representation": [
+      {
+        "value": {
+          "name": "Ingrid Fallowes",
+          "company": "Fallowes Artist Management",
+          "role": "Manager"
+        },
+        "needsConfirmation": true,
+        "note": "Role not stated; inferred from company name."
+      }
+    ],
+    "awards": [
+      {
+        "value": {
+          "award_name": "Silver Reel Award",
+          "category": "Best Original Score",
+          "year": null,
+          "result": "Nominated",
+          "project": "The Paper Kingdom"
+        },
+        "needsConfirmation": true,
+        "note": "Nomination year not stated."
+      },
+      {
+        "value": {
+          "award_name": "Harmonia Screen Music Award",
+          "category": null,
+          "year": 2021,
+          "result": "Won",
+          "project": "Northbound"
+        }
+      }
+    ]
+  },
+  "notes": []
+}

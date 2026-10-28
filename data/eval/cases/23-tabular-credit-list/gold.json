@@ -1,0 +1,82 @@
+{
+  "id": "23-tabular-credit-list",
+  "summary": "Pipe-separated table with a blank year cell; lighting crew.",
+  "tags": [
+    "credit-list-only",
+    "table-format",
+    "missing-year",
+    "crew-department"
+  ],
+  "inputs": {
+    "creditList": "credits.txt"
+  },
+  "expected": {
+    "bio": [],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Camera",
+          "title": "Velvet Static",
+          "year": 2022,
+          "role": "Gaffer",
+          "work_type": "Film"
+        },
+        "note": "Lighting crew filed under Camera (camera & electrical)."
+      },
+      {
+        "value": {
+          "department": "Camera",
+          "title": "The Long Quiet",
+          "year": 2021,
+          "role": "Gaffer",
+          "work_type": "Short"
+        }
+      },
+      {
+        "value": {
+          "department": "Camera",
+          "title": "Burnt Orange",
+          "year": null,
+          "role": "Best Boy Electric",
+          "work_type": "Film"
+        },
+        "needsConfirmation": true,
+        "note": "Year cell is blank."
+      },
+      {
+        "value": {
+          "department": "Camera",
+          "title": "Coldwater Junction",
+          "year": 2019,
+          "role": "Electrician",
+          "work_type": "TV"
+        }
+      },
+      {
+        "value": {
+          "department": "Camera",
+          "title": "Mile Marker Zero",
+          "year": 2018,
+          "role": "Best Boy Electric",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Camera",
+          "title": "Lantern Row",
+          "year": 2016,
+          "role": "Gaffer",
+          "work_type": "Short"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

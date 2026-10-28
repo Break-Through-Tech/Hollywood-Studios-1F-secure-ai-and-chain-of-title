@@ -1,0 +1,86 @@
+{
+  "id": "18-linkedin-export-experience",
+  "summary": "LinkedIn-export layout: two titles under one company, month-year dates, no credits.",
+  "tags": [
+    "resume",
+    "experience-dates",
+    "skills-list",
+    "no-credits"
+  ],
+  "inputs": {
+    "resume": "resume.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Development executive focused on elevated genre film and limited series. Formerly at Halcyon Artists and Tallgrass Pictures."
+      }
+    ],
+    "headline": [
+      {
+        "value": "VP, Development at Copperline Studios"
+      }
+    ],
+    "location": [
+      {
+        "value": "Greater Los Angeles Area"
+      }
+    ],
+    "experience": [
+      {
+        "value": {
+          "company": "Copperline Studios",
+          "job_title": "VP, Development",
+          "start_date": "2022-04",
+          "end_date": null,
+          "description": null
+        }
+      },
+      {
+        "value": {
+          "company": "Copperline Studios",
+          "job_title": "Director of Development",
+          "start_date": "2019-06",
+          "end_date": "2022-04",
+          "description": null
+        }
+      },
+      {
+        "value": {
+          "company": "Halcyon Artists",
+          "job_title": "Literary Assistant",
+          "start_date": "2016-09",
+          "end_date": "2019-05",
+          "description": null
+        }
+      },
+      {
+        "value": {
+          "company": "Tallgrass Pictures",
+          "job_title": "Development Intern",
+          "start_date": "2016-01",
+          "end_date": "2016-08",
+          "description": null
+        }
+      }
+    ],
+    "skills": [
+      {
+        "value": "Script Coverage"
+      },
+      {
+        "value": "Story Development"
+      },
+      {
+        "value": "Packaging"
+      },
+      {
+        "value": "Final Draft"
+      }
+    ],
+    "credits": [],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

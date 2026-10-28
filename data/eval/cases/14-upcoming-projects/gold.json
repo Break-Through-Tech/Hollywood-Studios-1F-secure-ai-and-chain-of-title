@@ -1,0 +1,80 @@
+{
+  "id": "14-upcoming-projects",
+  "summary": "Completed, in-post and in-development projects; implied roles.",
+  "tags": [
+    "bio-only",
+    "upcoming-projects",
+    "implied-role",
+    "missing-year",
+    "location-ambiguous"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Jonah Feld-Iwasaki is a producer at Driftwood Films in Portland, Oregon. His completed credits include the feature Salt & Cedar (2019) and the docuseries River Keepers (2022), on which he was a supervising producer. He is currently in post-production on the thriller Low Ceiling, and his next project, an adaptation of the novel The Ninth Lantern, is in development."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Portland, Oregon",
+        "needsConfirmation": true,
+        "note": "Stated as the company's city."
+      }
+    ],
+    "experience": [
+      {
+        "value": {
+          "company": "Driftwood Films",
+          "job_title": "Producer",
+          "start_date": null,
+          "end_date": null,
+          "description": null
+        }
+      }
+    ],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Salt & Cedar",
+          "year": 2019,
+          "role": "Producer",
+          "work_type": "Film"
+        },
+        "needsConfirmation": true,
+        "note": "Role implied, not stated for this title."
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "River Keepers",
+          "year": 2022,
+          "role": "Supervising Producer",
+          "work_type": "TV"
+        },
+        "note": "Docuseries."
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Low Ceiling",
+          "year": null,
+          "role": null,
+          "work_type": "Film"
+        },
+        "needsConfirmation": true,
+        "note": "In post-production; role and year not stated."
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": [
+    "The Ninth Lantern is in development: excluded."
+  ]
+}

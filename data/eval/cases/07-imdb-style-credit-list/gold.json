@@ -1,0 +1,91 @@
+{
+  "id": "07-imdb-style-credit-list",
+  "summary": "Credit list grouped by department, IMDb-style markers for TV and shorts.",
+  "tags": [
+    "credit-list-only",
+    "producer-vs-ep",
+    "tv-vs-film",
+    "same-title-multiple-roles"
+  ],
+  "inputs": {
+    "creditList": "credits.txt"
+  },
+  "expected": {
+    "bio": [],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Burnt Orange",
+          "year": 2021,
+          "role": "Director",
+          "work_type": "Film"
+        },
+        "note": "Unmarked entries are features in this format."
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Coldwater Junction",
+          "year": 2019,
+          "role": "Director",
+          "work_type": "TV"
+        },
+        "note": "4 episodes."
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "The Understudy",
+          "year": 2013,
+          "role": "Director",
+          "work_type": "Short"
+        }
+      },
+      {
+        "value": {
+          "department": "Writing",
+          "title": "Burnt Orange",
+          "year": 2021,
+          "role": "Screenplay",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Burnt Orange",
+          "year": 2021,
+          "role": "Executive Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Kingfisher Lane",
+          "year": 2017,
+          "role": "Co-Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Coldwater Junction",
+          "year": 2019,
+          "role": "Bartender",
+          "work_type": "TV"
+        },
+        "note": "1 episode."
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

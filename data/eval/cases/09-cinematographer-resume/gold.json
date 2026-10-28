@@ -1,0 +1,94 @@
+{
+  "id": "09-cinematographer-resume",
+  "summary": "Camera résumé in columns; default role from the header, music video and short work types.",
+  "tags": [
+    "resume",
+    "crew-department",
+    "music-video",
+    "short"
+  ],
+  "inputs": {
+    "resume": "resume.txt"
+  },
+  "expected": {
+    "bio": [],
+    "headline": [
+      {
+        "value": "Director of Photography"
+      }
+    ],
+    "location": [
+      {
+        "value": "Atlanta, GA"
+      }
+    ],
+    "experience": [],
+    "skills": [
+      {
+        "value": "ARRI Alexa Mini LF"
+      },
+      {
+        "value": "Steadicam"
+      },
+      {
+        "value": "Drone operation (FAA Part 107)"
+      },
+      {
+        "value": "Color grading in DaVinci Resolve"
+      }
+    ],
+    "credits": [
+      {
+        "value": {
+          "department": "Camera",
+          "title": "Thistledown",
+          "year": 2023,
+          "role": "Director of Photography",
+          "work_type": "Film"
+        },
+        "note": "Role from \"DP unless noted\"."
+      },
+      {
+        "value": {
+          "department": "Camera",
+          "title": "Overcast",
+          "year": 2022,
+          "role": "Director of Photography",
+          "work_type": "Music Video"
+        },
+        "note": "Music video for the artist Static Bloom."
+      },
+      {
+        "value": {
+          "department": "Camera",
+          "title": "The Long Quiet",
+          "year": 2021,
+          "role": "Director of Photography",
+          "work_type": "Short"
+        }
+      },
+      {
+        "value": {
+          "department": "Camera",
+          "title": "Southern Static",
+          "year": 2020,
+          "role": "2nd Unit DP",
+          "work_type": "TV"
+        },
+        "note": "3 episodes."
+      },
+      {
+        "value": {
+          "department": "Camera",
+          "title": "Halfway House Blues",
+          "year": 2019,
+          "role": "Camera Operator",
+          "work_type": "Film"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

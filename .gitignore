@@ -1,1 +1,17 @@
 
+docs/feature-spec.md
+
+# Claude Code settings and notes (kept local, not pushed)
+.claude/
+CLAUDE.local.md
+CLAUDE.md
+
+# Secrets
+.env.local
+.env*.local
+
+# Build output and dependencies
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store

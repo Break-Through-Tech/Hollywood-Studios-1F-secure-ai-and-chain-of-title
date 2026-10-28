@@ -1,0 +1,54 @@
+{
+  "id": "08-actor-stage-credits-excluded",
+  "summary": "Stage work and education must not become film/TV credits or experience.",
+  "tags": [
+    "bio-only",
+    "stage-exclusion",
+    "acting-character-names"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Theo Marchetti is a New York-based stage and screen actor. On Broadway he originated the role of Ezra in The Lamplighters, and he has toured with the national company of Wren & Finch. On screen, he played Detective Sam Ruiz in the procedural series Harbor Precinct (2020–2023) and appeared as Marco in the feature A Late Frost (2019). Theo holds an MFA in Acting from Hollis Conservatory."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "New York"
+      }
+    ],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Harbor Precinct",
+          "year": 2020,
+          "role": "Detective Sam Ruiz",
+          "work_type": "TV"
+        },
+        "note": "Range 2020–2023 → start year."
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "A Late Frost",
+          "year": 2019,
+          "role": "Marco",
+          "work_type": "Film"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": [
+    "The Lamplighters and Wren & Finch are stage productions: excluded.",
+    "The MFA is education, not experience."
+  ]
+}

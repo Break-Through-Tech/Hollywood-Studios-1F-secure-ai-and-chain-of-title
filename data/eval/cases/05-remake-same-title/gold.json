@@ -1,0 +1,61 @@
+{
+  "id": "05-remake-same-title",
+  "summary": "Same title, original vs remake, with different roles in different departments.",
+  "tags": [
+    "bio-only",
+    "remake-same-title",
+    "producer-vs-ep"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Callum Breck began his career as a child actor, playing young Tommy Ashby in the original Harbor Lights (2004). Nearly two decades later he returned to the story as an executive producer on the 2022 remake of Harbor Lights, and he produced the indie drama feature Fallow Ground (2023). He splits his time between Austin and Los Angeles."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Austin and Los Angeles",
+        "note": "Two cities, as written."
+      }
+    ],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Harbor Lights",
+          "year": 2004,
+          "role": "Young Tommy Ashby",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Harbor Lights",
+          "year": 2022,
+          "role": "Executive Producer",
+          "work_type": "Film"
+        },
+        "note": "The 2022 remake; must not merge with 2004."
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Fallow Ground",
+          "year": 2023,
+          "role": "Producer",
+          "work_type": "Film"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

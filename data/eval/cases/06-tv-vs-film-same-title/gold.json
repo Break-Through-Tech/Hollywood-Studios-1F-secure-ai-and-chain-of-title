@@ -1,0 +1,78 @@
+{
+  "id": "06-tv-vs-film-same-title",
+  "summary": "Same title as a 2012 film and a 2018 TV series; several roles on the series.",
+  "tags": [
+    "bio-only",
+    "tv-vs-film",
+    "location-trap"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Writer-director Noor Haddad wrote the 2012 feature film Wildwood, a coming-of-age drama set in rural Oregon. When the property was adapted into the television series Wildwood (2018–2020), Haddad served as showrunner and executive producer and wrote six episodes. Haddad also directed the short film Ember Season (2015)."
+      }
+    ],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Writing",
+          "title": "Wildwood",
+          "year": 2012,
+          "role": "Writer",
+          "work_type": "Film"
+        },
+        "note": "Bio does not say Haddad directed the film."
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Wildwood",
+          "year": 2018,
+          "role": "Showrunner",
+          "work_type": "TV"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Wildwood",
+          "year": 2018,
+          "role": "Executive Producer",
+          "work_type": "TV"
+        }
+      },
+      {
+        "value": {
+          "department": "Writing",
+          "title": "Wildwood",
+          "year": 2018,
+          "role": "Writer",
+          "work_type": "TV"
+        },
+        "note": "Six episodes."
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Ember Season",
+          "year": 2015,
+          "role": "Director",
+          "work_type": "Short"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": [
+    "\"Rural Oregon\" is where the story is set, not the member's location.",
+    "\"Writer-director\" is a description, not a headline."
+  ]
+}

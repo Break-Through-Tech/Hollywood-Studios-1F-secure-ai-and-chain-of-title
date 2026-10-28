@@ -1,0 +1,15 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+body { margin: 0; }
+.dev-shell { max-width: 880px; margin: 0 auto; padding: 16px; }
+.dev-bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid #8884; }
+.dev-card { margin-top: 16px; padding: 16px; border: 1px solid #8884; border-radius: 12px; }
+.dev-profile-head { display: flex; gap: 12px; align-items: center; }
+.dev-profile-head h1 { margin: 0; font-size: 1.25rem; }
+.dev-profile-head p { margin: 4px 0 0; }
+.dev-counts { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 4px 16px; padding-left: 18px; }
+.dev-muted { opacity: 0.7; font-size: 0.9rem; }
+.dev-error { color: #c62828; }
+.dev-actions { margin-top: 12px; }
+.dev-h2 { font-size: 1rem; margin: 0 0 8px; }
+.dev-h3 { font-size: 0.9rem; margin: 16px 0 8px; }
+.dev-pre { white-space: pre-wrap; word-break: break-word; max-height: 360px; overflow: auto; padding: 12px; border-radius: 8px; background: #8881; font-size: 0.8rem; }

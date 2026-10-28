@@ -1,0 +1,127 @@
+{
+  "id": "15-actor-resume-representation",
+  "summary": "Actor résumé with four current reps and one former rep; voice role.",
+  "tags": [
+    "resume",
+    "representation",
+    "acting-character-names",
+    "voice",
+    "skills-list"
+  ],
+  "inputs": {
+    "resume": "resume.txt"
+  },
+  "expected": {
+    "bio": [],
+    "headline": [
+      {
+        "value": "Actor | Voice Artist"
+      }
+    ],
+    "location": [],
+    "experience": [],
+    "skills": [
+      {
+        "value": "Fluent Korean"
+      },
+      {
+        "value": "Stage combat"
+      },
+      {
+        "value": "Horseback riding"
+      },
+      {
+        "value": "Dialects: Southern US, RP British"
+      }
+    ],
+    "credits": [
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Brightwater",
+          "year": 2021,
+          "role": "Nadia Fox",
+          "work_type": "TV"
+        },
+        "note": "Recurring."
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Coldwater Junction",
+          "year": 2019,
+          "role": "Officer Kim",
+          "work_type": "TV"
+        },
+        "note": "Guest star."
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Kingfisher Lane",
+          "year": 2017,
+          "role": "Ruth",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Velvet Static",
+          "year": 2022,
+          "role": "Ivy",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Starlight Patrol",
+          "year": 2020,
+          "role": "Captain Nova (voice)",
+          "work_type": "TV"
+        },
+        "note": "Animated series, 2020–2022."
+      }
+    ],
+    "representation": [
+      {
+        "value": {
+          "name": "Marcus Lindqvist",
+          "company": "Northstar Talent Agency",
+          "role": "Theatrical Agent",
+          "email": "marcus@northstar.example.invalid",
+          "phone": "(310) 555-0182"
+        }
+      },
+      {
+        "value": {
+          "name": "Bea Torrance",
+          "company": "Torrance & Vale Management",
+          "role": "Manager",
+          "phone": "(310) 555-0119"
+        }
+      },
+      {
+        "value": {
+          "name": "Dee Harlan",
+          "company": "Northstar Talent Agency",
+          "role": "Commercial Agent"
+        }
+      },
+      {
+        "value": {
+          "name": "Kenji Moreau",
+          "company": "Lumen PR",
+          "role": "Publicist",
+          "email": "kenji@lumenpr.example.invalid"
+        }
+      }
+    ],
+    "awards": []
+  },
+  "notes": [
+    "Halcyon Artists is former representation: excluded.",
+    "Height and union membership are not profile fields."
+  ]
+}

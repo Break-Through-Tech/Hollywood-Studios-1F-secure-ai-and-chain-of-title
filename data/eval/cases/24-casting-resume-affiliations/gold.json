@@ -1,0 +1,99 @@
+{
+  "id": "24-casting-resume-affiliations",
+  "summary": "Casting résumé; affiliations are not skills or experience.",
+  "tags": [
+    "resume",
+    "crew-department",
+    "experience-dates",
+    "skills-list"
+  ],
+  "inputs": {
+    "resume": "resume.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Casting director for film and television with a focus on discovering emerging talent."
+      }
+    ],
+    "headline": [
+      {
+        "value": "Casting Director, CSA"
+      }
+    ],
+    "location": [
+      {
+        "value": "Toronto, ON"
+      }
+    ],
+    "experience": [
+      {
+        "value": {
+          "company": "Asante-Rowe Casting",
+          "job_title": "Owner",
+          "start_date": "2017",
+          "end_date": null,
+          "description": null
+        }
+      },
+      {
+        "value": {
+          "company": "Maple Leaf Casting Group",
+          "job_title": "Casting Associate",
+          "start_date": "2011",
+          "end_date": "2016",
+          "description": null
+        }
+      }
+    ],
+    "skills": [
+      {
+        "value": "Self-tape review"
+      },
+      {
+        "value": "Breakdown Services"
+      },
+      {
+        "value": "Child performer casting"
+      },
+      {
+        "value": "Bilingual (English/French)"
+      }
+    ],
+    "credits": [
+      {
+        "value": {
+          "department": "Other",
+          "title": "Undertow",
+          "year": 2022,
+          "role": "Casting Director",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Other",
+          "title": "Mercy Ward",
+          "year": 2018,
+          "role": "Casting Director",
+          "work_type": "TV"
+        },
+        "note": "Seasons 3–5, 2018–2020."
+      },
+      {
+        "value": {
+          "department": "Other",
+          "title": "Paper Lanterns",
+          "year": 2014,
+          "role": "Casting Associate",
+          "work_type": "Film"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": [
+    "Affiliations (CSA, DGC) are excluded."
+  ]
+}

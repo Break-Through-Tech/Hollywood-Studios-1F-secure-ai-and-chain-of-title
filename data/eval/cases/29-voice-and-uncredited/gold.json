@@ -1,0 +1,66 @@
+{
+  "id": "29-voice-and-uncredited",
+  "summary": "Voice roles and an uncredited appearance.",
+  "tags": [
+    "credit-list-only",
+    "voice",
+    "uncredited",
+    "acting-character-names"
+  ],
+  "inputs": {
+    "creditList": "credits.txt"
+  },
+  "expected": {
+    "bio": [],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Starlight Patrol",
+          "year": 2020,
+          "role": "Bolt (voice)",
+          "work_type": "TV"
+        },
+        "note": "24 episodes."
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "The Paper Kingdom",
+          "year": 2018,
+          "role": "Additional Voices (voice)",
+          "work_type": "Film"
+        },
+        "note": "Unmarked entries are features in this format."
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Undertow",
+          "year": 2022,
+          "role": "Bar Patron (uncredited)",
+          "work_type": "Film"
+        },
+        "needsConfirmation": true,
+        "note": "Uncredited appearance."
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Precinct Nine",
+          "year": 2017,
+          "role": "Paramedic #1",
+          "work_type": "TV"
+        },
+        "note": "1 episode."
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

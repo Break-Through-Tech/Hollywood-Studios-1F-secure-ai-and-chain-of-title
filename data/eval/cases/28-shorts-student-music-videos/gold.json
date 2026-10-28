@@ -1,0 +1,67 @@
+{
+  "id": "28-shorts-student-music-videos",
+  "summary": "Student film, short, and music videos; school is not experience.",
+  "tags": [
+    "bio-only",
+    "short",
+    "music-video"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Director Tobi Adeyinka-Moss makes short films and music videos. Tobi's thesis film Kitchen Light (2019) was made at Lakeshore Film School; the short Paper Boats (2021) followed. Music video work includes \"Neon Rain\" for the band Halcyon Static (2022) and \"Overcast\" for Static Bloom (2022)."
+      }
+    ],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Kitchen Light",
+          "year": 2019,
+          "role": "Director",
+          "work_type": "Short"
+        },
+        "note": "Student thesis film."
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Paper Boats",
+          "year": 2021,
+          "role": "Director",
+          "work_type": "Short"
+        }
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Neon Rain",
+          "year": 2022,
+          "role": "Director",
+          "work_type": "Music Video"
+        },
+        "note": "For Halcyon Static."
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Overcast",
+          "year": 2022,
+          "role": "Director",
+          "work_type": "Music Video"
+        },
+        "note": "For Static Bloom."
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

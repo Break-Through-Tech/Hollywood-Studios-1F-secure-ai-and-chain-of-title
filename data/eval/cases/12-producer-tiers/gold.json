@@ -1,0 +1,88 @@
+{
+  "id": "12-producer-tiers",
+  "summary": "Every producer tier; same series with a promotion from Co-EP to EP.",
+  "tags": [
+    "credit-list-only",
+    "producer-vs-ep",
+    "same-title-multiple-roles"
+  ],
+  "inputs": {
+    "creditList": "credits.txt"
+  },
+  "expected": {
+    "bio": [],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Producing",
+          "title": "The Cartographer's Daughter",
+          "year": 2020,
+          "role": "Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Ironweed Avenue",
+          "year": 2018,
+          "role": "Co-Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Velvet Static",
+          "year": 2022,
+          "role": "Associate Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Brightwater",
+          "year": 2021,
+          "role": "Co-Executive Producer",
+          "work_type": "TV"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Brightwater",
+          "year": 2023,
+          "role": "Executive Producer",
+          "work_type": "TV"
+        },
+        "note": "Season 3."
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Kettle & Crow",
+          "year": 2015,
+          "role": "Line Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Mile Marker Zero",
+          "year": 2019,
+          "role": "Executive Producer",
+          "work_type": "Film"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

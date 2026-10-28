@@ -1,0 +1,73 @@
+{
+  "id": "10-editor-linkedin-about",
+  "summary": "LinkedIn-style About text; web series work type; a company city that may not be the member's location.",
+  "tags": [
+    "bio-only",
+    "first-person",
+    "web-series",
+    "location-ambiguous"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Editor and post supervisor. I cut narrative and documentary work, most recently the feature documentary Saltmarsh (2023). I was an additional editor on the limited series Northbound (2019) and edited all eight episodes of the web series Roommates Anonymous (2020–2021). Currently Post-Production Supervisor at Kestrel Post in Burbank since June 2021."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Burbank",
+        "needsConfirmation": true,
+        "note": "Burbank is where the company is; member location not stated outright."
+      }
+    ],
+    "experience": [
+      {
+        "value": {
+          "company": "Kestrel Post",
+          "job_title": "Post-Production Supervisor",
+          "start_date": "2021-06",
+          "end_date": null,
+          "description": null
+        }
+      }
+    ],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Editing",
+          "title": "Saltmarsh",
+          "year": 2023,
+          "role": "Editor",
+          "work_type": "Film"
+        },
+        "note": "Feature documentary."
+      },
+      {
+        "value": {
+          "department": "Editing",
+          "title": "Northbound",
+          "year": 2019,
+          "role": "Additional Editor",
+          "work_type": "TV"
+        }
+      },
+      {
+        "value": {
+          "department": "Editing",
+          "title": "Roommates Anonymous",
+          "year": 2020,
+          "role": "Editor",
+          "work_type": "Web Series"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

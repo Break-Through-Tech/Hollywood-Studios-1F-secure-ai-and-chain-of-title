@@ -1,0 +1,86 @@
+{
+  "id": "02-writer-first-person-missing-years",
+  "summary": "First-person writer bio; two credits have no year.",
+  "tags": [
+    "bio-only",
+    "first-person",
+    "missing-year"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "I'm a screenwriter and playwright living in Chicago. I wrote the feature Low Tide Motel and co-wrote the holiday comedy feature A Very Fenwick Christmas (2019). For television, I was a staff writer on Precinct Nine for two seasons and later a story editor on Glass Harbor (2021). I teach screenwriting at Lakeshore Community College on weekends."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Chicago"
+      }
+    ],
+    "experience": [
+      {
+        "value": {
+          "company": "Lakeshore Community College",
+          "job_title": "Screenwriting Instructor",
+          "start_date": null,
+          "end_date": null,
+          "description": null
+        },
+        "needsConfirmation": true,
+        "note": "Job title paraphrased from \"I teach screenwriting\"."
+      }
+    ],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Writing",
+          "title": "Low Tide Motel",
+          "year": null,
+          "role": "Writer",
+          "work_type": "Film"
+        },
+        "needsConfirmation": true,
+        "note": "No year."
+      },
+      {
+        "value": {
+          "department": "Writing",
+          "title": "A Very Fenwick Christmas",
+          "year": 2019,
+          "role": "Co-Writer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Writing",
+          "title": "Precinct Nine",
+          "year": null,
+          "role": "Staff Writer",
+          "work_type": "TV"
+        },
+        "needsConfirmation": true,
+        "note": "No year; \"two seasons\"."
+      },
+      {
+        "value": {
+          "department": "Writing",
+          "title": "Glass Harbor",
+          "year": 2021,
+          "role": "Story Editor",
+          "work_type": "TV"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": [
+    "\"Playwright\" is not a skill or credit."
+  ]
+}

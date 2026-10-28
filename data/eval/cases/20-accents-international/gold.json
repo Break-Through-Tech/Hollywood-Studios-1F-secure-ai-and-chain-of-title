@@ -1,0 +1,72 @@
+{
+  "id": "20-accents-international",
+  "summary": "Accented names and non-English titles must be kept exactly.",
+  "tags": [
+    "bio-only",
+    "non-ascii",
+    "producer-vs-ep",
+    "award-missing-year"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Valentina Ruiz-Ebrahimi is a Mexico City–based producer working across Spanish- and French-language cinema. She produced Les Éphémères (2020), a French-Mexican feature co-production, and was executive producer of the series La Casa del Faro (2021–2023). Her first feature as producer, El Último Verano de Tomás (2016), won the Premio Colibrí for Best First Film."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Mexico City"
+      }
+    ],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Les Éphémères",
+          "year": 2020,
+          "role": "Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "La Casa del Faro",
+          "year": 2021,
+          "role": "Executive Producer",
+          "work_type": "TV"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "El Último Verano de Tomás",
+          "year": 2016,
+          "role": "Producer",
+          "work_type": "Film"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": [
+      {
+        "value": {
+          "award_name": "Premio Colibrí",
+          "category": "Best First Film",
+          "year": null,
+          "result": "Won",
+          "project": "El Último Verano de Tomás"
+        },
+        "needsConfirmation": true,
+        "note": "Award year not stated."
+      }
+    ]
+  },
+  "notes": []
+}

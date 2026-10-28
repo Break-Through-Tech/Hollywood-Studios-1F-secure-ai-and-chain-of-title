@@ -1,0 +1,87 @@
+{
+  "id": "01-director-empty-profile",
+  "summary": "Third-person bio for the empty-profile mock (Marisol Teague); a few credits, one award, one job.",
+  "tags": [
+    "bio-only",
+    "third-person",
+    "empty-profile-use-case",
+    "award-missing-year",
+    "experience-no-dates"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Marisol Teague is a director based in Atlanta, Georgia. Her debut feature, Red Clay Summer (2017), premiered at the Savannah Lowlands Film Festival, where it won the Audience Award. She followed it with the documentary feature Inland Waters (2020) and directed two episodes of the anthology series Southern Static in 2022. Before directing, Marisol spent five years as a commercial producer at Peachtree Motion Co."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Atlanta, Georgia"
+      }
+    ],
+    "experience": [
+      {
+        "value": {
+          "company": "Peachtree Motion Co.",
+          "job_title": "Commercial Producer",
+          "start_date": null,
+          "end_date": null,
+          "description": null
+        },
+        "needsConfirmation": true,
+        "note": "Only a duration (\"five years\") is given."
+      }
+    ],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Red Clay Summer",
+          "year": 2017,
+          "role": "Director",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Inland Waters",
+          "year": 2020,
+          "role": "Director",
+          "work_type": "Film"
+        },
+        "note": "Documentary feature."
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Southern Static",
+          "year": 2022,
+          "role": "Director",
+          "work_type": "TV"
+        },
+        "note": "Two episodes."
+      }
+    ],
+    "representation": [],
+    "awards": [
+      {
+        "value": {
+          "award_name": "Savannah Lowlands Film Festival",
+          "category": "Audience Award",
+          "year": null,
+          "result": "Won",
+          "project": "Red Clay Summer"
+        },
+        "needsConfirmation": true,
+        "note": "Award year not stated; the film is 2017."
+      }
+    ]
+  },
+  "notes": []
+}

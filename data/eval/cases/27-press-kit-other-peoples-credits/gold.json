@@ -1,0 +1,61 @@
+{
+  "id": "27-press-kit-other-peoples-credits",
+  "summary": "Press-kit quote mentions another person's film and award.",
+  "tags": [
+    "bio-only",
+    "hallucination-trap",
+    "other-peoples-credits"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "\"Ingrid Solberg-Mbeki has an eye for the overlooked,\" says director Hal Brennan, whose previous film Northern Lights Café won the top prize at the Fjordline Film Festival. Solberg-Mbeki edited Brennan's new feature The Salt Road (2024), and her earlier editing credits include the documentaries Iron Shore (2019) and Saltmarsh (2023). She is based in Oslo."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Oslo"
+      }
+    ],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Editing",
+          "title": "The Salt Road",
+          "year": 2024,
+          "role": "Editor",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Editing",
+          "title": "Iron Shore",
+          "year": 2019,
+          "role": "Editor",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Editing",
+          "title": "Saltmarsh",
+          "year": 2023,
+          "role": "Editor",
+          "work_type": "Film"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": [
+    "Northern Lights Café and the Fjordline prize belong to Hal Brennan, not the member."
+  ]
+}

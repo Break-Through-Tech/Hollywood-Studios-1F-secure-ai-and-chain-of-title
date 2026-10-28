@@ -1,0 +1,103 @@
+{
+  "id": "30-populated-profile-gap-fill",
+  "summary": "Bio for the populated-profile mock (Julian Ashcombe): mostly overlaps existing data, plus two new credits.",
+  "tags": [
+    "bio-only",
+    "populated-profile-use-case",
+    "remake-same-title",
+    "producer-vs-ep",
+    "representation"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Sir Julian Ashcombe, founder of Larkspur Pictures, has produced film and television for more than thirty years. His feature credits as producer include Harbor Lights (2004) and Copper Season (2011), and he executive produced the limited series Northbound (2019). He also produced the feature Saint Clare's Hours (2014) and, most recently, executive produced the 2022 remake of Harbor Lights. He is represented by Dana Whitlock at Meridian Talent Group and is based in London."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "London"
+      }
+    ],
+    "experience": [
+      {
+        "value": {
+          "company": "Larkspur Pictures",
+          "job_title": "Founder",
+          "start_date": null,
+          "end_date": null,
+          "description": null
+        }
+      }
+    ],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Harbor Lights",
+          "year": 2004,
+          "role": "Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Copper Season",
+          "year": 2011,
+          "role": "Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Northbound",
+          "year": 2019,
+          "role": "Executive Producer",
+          "work_type": "TV"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Saint Clare's Hours",
+          "year": 2014,
+          "role": "Producer",
+          "work_type": "Film"
+        },
+        "note": "New: not on the mock profile."
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Harbor Lights",
+          "year": 2022,
+          "role": "Executive Producer",
+          "work_type": "Film"
+        },
+        "note": "New: the remake; must not merge with 2004."
+      }
+    ],
+    "representation": [
+      {
+        "value": {
+          "name": "Dana Whitlock",
+          "company": "Meridian Talent Group",
+          "role": "Agent"
+        },
+        "needsConfirmation": true,
+        "note": "Role not stated."
+      }
+    ],
+    "awards": []
+  },
+  "notes": [
+    "Overlaps with the existing mock profile are expected; the review screen handles them (Task 7)."
+  ]
+}

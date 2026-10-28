@@ -1,0 +1,85 @@
+{
+  "id": "16-awards-selection-vs-nomination",
+  "summary": "Won vs nominated; festival selections and shortlists are not awards.",
+  "tags": [
+    "bio-only",
+    "awards",
+    "won-vs-nominated",
+    "implied-role"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Documentary filmmaker Ruth Achterberg directed and produced Iron Shore (2019), which won the Grand Jury Prize at the Coastline Documentary Festival and was nominated for the Golden Lantern Award for Best Documentary Feature in 2020. Her short The Weir (2016) was an Official Selection at the Moraine Film Festival and was shortlisted for the Crestview Short Film Prize. She lives in Minneapolis."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Minneapolis"
+      }
+    ],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Iron Shore",
+          "year": 2019,
+          "role": "Director",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Iron Shore",
+          "year": 2019,
+          "role": "Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "The Weir",
+          "year": 2016,
+          "role": null,
+          "work_type": "Short"
+        },
+        "needsConfirmation": true,
+        "note": "Role not stated (\"Her short\")."
+      }
+    ],
+    "representation": [],
+    "awards": [
+      {
+        "value": {
+          "award_name": "Coastline Documentary Festival",
+          "category": "Grand Jury Prize",
+          "year": null,
+          "result": "Won",
+          "project": "Iron Shore"
+        },
+        "needsConfirmation": true,
+        "note": "Award year not stated."
+      },
+      {
+        "value": {
+          "award_name": "Golden Lantern Award",
+          "category": "Best Documentary Feature",
+          "year": 2020,
+          "result": "Nominated",
+          "project": "Iron Shore"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "\"Official Selection\" and \"shortlisted\" are excluded from awards."
+  ]
+}

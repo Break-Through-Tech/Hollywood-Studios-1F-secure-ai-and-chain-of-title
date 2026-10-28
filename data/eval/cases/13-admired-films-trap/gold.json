@@ -1,0 +1,65 @@
+{
+  "id": "13-admired-films-trap",
+  "summary": "Bio names films the member watched, not worked on; childhood city vs current city.",
+  "tags": [
+    "bio-only",
+    "hallucination-trap",
+    "location-trap",
+    "missing-year"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Growing up in Tucson, Lena Vasquez-Hart watched Midnight Cowboys of Mars and The Glass Orchard so many times she wore out the tapes. Those films sent her to film school, and today her debut feature as writer and director, Desert Bloom Motel (2021), has screened at festivals across the Southwest. She is currently a writer on the second season of the series Saguaro Heights, and lives in Phoenix."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Phoenix"
+      }
+    ],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Writing",
+          "title": "Desert Bloom Motel",
+          "year": 2021,
+          "role": "Writer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Desert Bloom Motel",
+          "year": 2021,
+          "role": "Director",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Writing",
+          "title": "Saguaro Heights",
+          "year": null,
+          "role": "Writer",
+          "work_type": "TV"
+        },
+        "needsConfirmation": true,
+        "note": "Current work; no year."
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": [
+    "Midnight Cowboys of Mars and The Glass Orchard are NOT credits.",
+    "Tucson is where she grew up."
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "04-actor-bio-plus-credit-list",
+  "summary": "Bio mentions selected credits; the separate list is complete. Overlapping credits must appear once.",
+  "tags": [
+    "bio+credit-list",
+    "dedupe-across-inputs",
+    "acting-character-names",
+    "year-range"
+  ],
+  "inputs": {
+    "bio": "bio.txt",
+    "creditList": "credits.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Priya Raman-Castillo is an actor best known for playing Dr. Leena Shah on the medical drama Mercy Ward (2016–2020). Her film work includes Paper Lanterns (2014) and the thriller Undertow (2022). She is based in Vancouver."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Vancouver"
+      }
+    ],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Undertow",
+          "year": 2022,
+          "role": "Cass Moreno",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Paper Lanterns",
+          "year": 2014,
+          "role": "June",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Blue Hour Diner",
+          "year": 2011,
+          "role": "Waitress #2",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Signal Lost",
+          "year": 2018,
+          "role": "Dr. Amara Kell",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Mercy Ward",
+          "year": 2016,
+          "role": "Dr. Leena Shah",
+          "work_type": "TV"
+        },
+        "note": "Range 2016–2020 → start year. Series regular."
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "Northbound",
+          "year": 2019,
+          "role": "Officer Tamsin Reyes",
+          "work_type": "TV"
+        },
+        "note": "2 episodes."
+      },
+      {
+        "value": {
+          "department": "Acting",
+          "title": "The Quiet Ledger",
+          "year": 2017,
+          "role": "Grace",
+          "work_type": "TV"
+        },
+        "note": "1 episode."
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

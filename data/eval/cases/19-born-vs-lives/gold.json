@@ -1,0 +1,76 @@
+{
+  "id": "19-born-vs-lives",
+  "summary": "Birthplace vs current city; work type not stated for two credits.",
+  "tags": [
+    "bio-only",
+    "location-trap",
+    "tv-vs-film",
+    "crew-department"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Born and raised in Dayton, Ohio, production designer Imani Castellanos now lives in Brooklyn, New York. She designed the period drama The Ashgrove Letters (2018), the sci-fi feature Orbital Decay (2021), and the first season of the series Copper Coast (2022). Earlier in her career she was an art director on Kettle & Crow (2015)."
+      }
+    ],
+    "headline": [],
+    "location": [
+      {
+        "value": "Brooklyn, New York"
+      }
+    ],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Other",
+          "title": "The Ashgrove Letters",
+          "year": 2018,
+          "role": "Production Designer",
+          "work_type": null
+        },
+        "needsConfirmation": true,
+        "note": "\"Period drama\": film or TV not stated."
+      },
+      {
+        "value": {
+          "department": "Other",
+          "title": "Orbital Decay",
+          "year": 2021,
+          "role": "Production Designer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Other",
+          "title": "Copper Coast",
+          "year": 2022,
+          "role": "Production Designer",
+          "work_type": "TV"
+        },
+        "note": "Season 1."
+      },
+      {
+        "value": {
+          "department": "Other",
+          "title": "Kettle & Crow",
+          "year": 2015,
+          "role": "Art Director",
+          "work_type": null
+        },
+        "needsConfirmation": true,
+        "note": "Work type not stated."
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": [
+    "Dayton, Ohio is the birthplace, not the current location."
+  ]
+}

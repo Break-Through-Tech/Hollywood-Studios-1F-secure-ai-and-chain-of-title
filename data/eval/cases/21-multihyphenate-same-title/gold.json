@@ -1,0 +1,96 @@
+{
+  "id": "21-multihyphenate-same-title",
+  "summary": "Several roles on one title become separate credits.",
+  "tags": [
+    "credit-list-only",
+    "same-title-multiple-roles",
+    "producer-vs-ep"
+  ],
+  "inputs": {
+    "creditList": "credits.txt"
+  },
+  "expected": {
+    "bio": [],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Writing",
+          "title": "Hollow Pines",
+          "year": 2020,
+          "role": "Writer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Hollow Pines",
+          "year": 2020,
+          "role": "Director",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Hollow Pines",
+          "year": 2020,
+          "role": "Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Writing",
+          "title": "Tidewater",
+          "year": 2017,
+          "role": "Writer",
+          "work_type": "Short"
+        }
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Tidewater",
+          "year": 2017,
+          "role": "Director",
+          "work_type": "Short"
+        }
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "The Last Lighthouse Keeper",
+          "year": 2023,
+          "role": "Director",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "The Last Lighthouse Keeper",
+          "year": 2023,
+          "role": "Executive Producer",
+          "work_type": "Film"
+        }
+      },
+      {
+        "value": {
+          "department": "Editing",
+          "title": "Lumen",
+          "year": 2014,
+          "role": "Editor",
+          "work_type": "Short"
+        }
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

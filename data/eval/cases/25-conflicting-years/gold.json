@@ -1,0 +1,62 @@
+{
+  "id": "25-conflicting-years",
+  "summary": "Bio and credit list disagree on a year; must flag, not pick silently.",
+  "tags": [
+    "bio+credit-list",
+    "conflict",
+    "dedupe-across-inputs",
+    "tv-vs-film"
+  ],
+  "inputs": {
+    "bio": "bio.txt",
+    "creditList": "credits.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Harlan Whitcombe produced the western Copper Season in 2011 and executive produced the miniseries Dust Line (2015)."
+      }
+    ],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Copper Season",
+          "year": 2012,
+          "role": "Producer",
+          "work_type": null
+        },
+        "needsConfirmation": true,
+        "note": "Bio says 2011, list says 2012. Work type not stated (\"western\")."
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Dust Line",
+          "year": 2015,
+          "role": "Executive Producer",
+          "work_type": "TV"
+        },
+        "note": "Miniseries."
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "Redwater Crossing",
+          "year": 2017,
+          "role": "Producer",
+          "work_type": null
+        },
+        "needsConfirmation": true,
+        "note": "Work type not stated."
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}

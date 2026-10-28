@@ -1,0 +1,153 @@
+/* Profile auto-populate: "Populate My Profile" dialog.
+   Uses the app's design tokens; fallbacks keep it usable where they aren't defined. */
+
+.pp-trigger,
+.pp-btn {
+  min-height: var(--control-h, 40px);
+  padding: 0 18px;
+  border-radius: var(--r-pill, 999px);
+  font: 600 0.95rem/1 var(--font-ui, system-ui, sans-serif);
+  cursor: pointer;
+}
+.pp-trigger,
+.pp-btn--primary {
+  border: 1px solid var(--navy, #1f2a44);
+  background: var(--navy, #1f2a44);
+  color: var(--text-on-navy, #fff);
+}
+.pp-btn--ghost {
+  border: 1px solid var(--hair-strong, #b8b8b8);
+  background: transparent;
+  color: var(--text, #1a1a1a);
+}
+.pp-btn[aria-disabled='true'] { opacity: 0.55; }
+.pp-btn:disabled { opacity: 0.55; cursor: progress; }
+.pp-trigger:focus-visible,
+.pp-btn:focus-visible,
+.pp-upload:focus-within,
+.pp-input:focus-visible,
+.pp-textarea:focus-visible,
+.pp-check input:focus-visible,
+.pp-link-btn:focus-visible {
+  outline: 2px solid var(--focus, #3b82f6);
+  outline-offset: 2px;
+}
+
+.pp-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgb(0 0 0 / 0.45);
+}
+.pp-dialog {
+  position: fixed;
+  z-index: 1001;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(640px, calc(100vw - 32px));
+  max-height: calc(100dvh - 48px);
+  display: flex;
+  border-radius: var(--r-lg, 16px);
+  background: var(--surface, #fff);
+  color: var(--text, #1a1a1a);
+  box-shadow: var(--shadow-modal, 0 24px 64px rgb(0 0 0 / 0.25));
+  font-family: var(--font-ui, system-ui, sans-serif);
+}
+.pp-form { display: flex; flex-direction: column; width: 100%; min-height: 0; }
+.pp-head { padding: 20px 24px 12px; border-bottom: 1px solid var(--hair, #e5e5e5); }
+.pp-title { margin: 0; font: 600 1.25rem/1.3 var(--font-display, inherit); }
+.pp-lede { margin: 6px 0 0; color: var(--text-2, #555); font-size: 0.9rem; line-height: 1.45; }
+.pp-body { flex: 1; min-height: 0; overflow-y: auto; padding: 16px 24px; display: grid; gap: 20px; }
+.pp-foot { padding: 12px 24px 16px; border-top: 1px solid var(--hair, #e5e5e5); }
+.pp-actions { display: flex; justify-content: flex-end; gap: 10px; }
+
+.pp-field { display: grid; gap: 6px; min-width: 0; }
+.pp-fieldset { border: 0; margin: 0; padding: 0; }
+.pp-label { font-weight: 600; font-size: 0.95rem; padding: 0; }
+.pp-sublabel { font-size: 0.85rem; color: var(--text-2, #555); }
+.pp-hint { margin: 0; color: var(--text-3, #777); font-size: 0.85rem; }
+.pp-counter { margin: 0; color: var(--text-3, #777); font-size: 0.8rem; text-align: right; }
+.pp-error { margin: 0; color: var(--bad, #c62828); font-size: 0.85rem; }
+
+.pp-textarea,
+.pp-input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--hair-strong, #b8b8b8);
+  border-radius: var(--r-md, 10px);
+  background: var(--surface, #fff);
+  color: inherit;
+  font: inherit;
+  /* 16px stops iOS Safari from zooming into the field on focus. */
+  font-size: 16px;
+}
+.pp-textarea { padding: 10px 12px; resize: vertical; line-height: 1.45; }
+.pp-textarea--mono { font-family: var(--font-mono, ui-monospace, monospace); font-size: 14px; }
+.pp-input { min-height: var(--control-h, 40px); padding: 0 12px; }
+.pp-input[aria-invalid='true'] { border-color: var(--bad, #c62828); }
+.pp-ref { display: grid; gap: 4px; }
+.pp-ref + .pp-ref { margin-top: 8px; }
+
+.pp-upload {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--control-h, 40px);
+  padding: 0 16px;
+  border: 1px dashed var(--hair-strong, #b8b8b8);
+  border-radius: var(--r-md, 10px);
+  cursor: pointer;
+  font-weight: 600;
+}
+.pp-file {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  padding: 8px 12px;
+  border-radius: var(--r-md, 10px);
+  background: var(--surface-2, #f4f4f4);
+}
+.pp-file-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pp-link-btn {
+  border: 0;
+  background: none;
+  padding: 4px;
+  color: var(--link, #1d4ed8);
+  font: inherit;
+  cursor: pointer;
+}
+
+.pp-check { display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; line-height: 1.4; cursor: pointer; }
+.pp-check input { width: 20px; height: 20px; margin: 1px 0 0; flex: none; }
+
+.pp-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Phones: full-screen sheet with a sticky footer and full-width actions. */
+@media (max-width: 768px) {
+  .pp-dialog {
+    inset: 0;
+    transform: none;
+    width: 100%;
+    max-height: none;
+    height: 100dvh;
+    border-radius: 0;
+  }
+  .pp-head,
+  .pp-body,
+  .pp-foot { padding-left: 16px; padding-right: 16px; }
+  .pp-actions { flex-direction: column-reverse; }
+  .pp-actions .pp-btn { width: 100%; min-height: 44px; }
+  .pp-upload { justify-self: stretch; justify-content: center; min-height: 44px; }
+}

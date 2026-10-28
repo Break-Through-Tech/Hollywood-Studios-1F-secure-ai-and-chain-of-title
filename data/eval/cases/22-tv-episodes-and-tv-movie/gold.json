@@ -1,0 +1,73 @@
+{
+  "id": "22-tv-episodes-and-tv-movie",
+  "summary": "Episode counts, a vague \"dozen series\" claim, and a TV movie.",
+  "tags": [
+    "bio-only",
+    "tv-vs-film",
+    "missing-year",
+    "hallucination-trap"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Television director Mara Quill has directed episodes of more than a dozen series. Highlights include four episodes of Coldwater Junction (2019–2021), the pilot and season finale of Brightwater (2021), and two episodes of the comedy Roommates Anonymous. She also produced the TV movie A Holly Jolly Heist (2018)."
+      }
+    ],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Coldwater Junction",
+          "year": 2019,
+          "role": "Director",
+          "work_type": "TV"
+        },
+        "note": "Four episodes, 2019–2021 → start year."
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Brightwater",
+          "year": 2021,
+          "role": "Director",
+          "work_type": "TV"
+        },
+        "note": "Pilot and season finale."
+      },
+      {
+        "value": {
+          "department": "Directing",
+          "title": "Roommates Anonymous",
+          "year": null,
+          "role": "Director",
+          "work_type": "TV"
+        },
+        "needsConfirmation": true,
+        "note": "No year; platform (TV vs web) not stated."
+      },
+      {
+        "value": {
+          "department": "Producing",
+          "title": "A Holly Jolly Heist",
+          "year": 2018,
+          "role": "Producer",
+          "work_type": "TV"
+        },
+        "needsConfirmation": true,
+        "note": "TV movie: no separate work type, so TV."
+      }
+    ],
+    "representation": [],
+    "awards": []
+  },
+  "notes": [
+    "\"More than a dozen series\" must not produce invented credits."
+  ]
+}

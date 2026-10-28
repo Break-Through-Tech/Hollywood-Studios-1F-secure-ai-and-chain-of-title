@@ -1,0 +1,27 @@
+{
+  "id": "17-sparse-input",
+  "summary": "Almost no information; everything except the bio must stay empty.",
+  "tags": [
+    "bio-only",
+    "sparse",
+    "hallucination-trap"
+  ],
+  "inputs": {
+    "bio": "bio.txt"
+  },
+  "expected": {
+    "bio": [
+      {
+        "value": "Hi, I'm Dana. I work in film. Happy to connect!"
+      }
+    ],
+    "headline": [],
+    "location": [],
+    "experience": [],
+    "skills": [],
+    "credits": [],
+    "representation": [],
+    "awards": []
+  },
+  "notes": []
+}
