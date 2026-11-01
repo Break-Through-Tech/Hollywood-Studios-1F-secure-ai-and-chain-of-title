@@ -9,7 +9,8 @@
     "typecheck": "tsc -b && tsc -p tsconfig.api.json",
     "test": "vitest run",
     "test:watch": "vitest",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "eval": "node --experimental-strip-types scripts/eval/run.ts"
   },
   "dependencies": {
     "mammoth": "^1.13.0",
